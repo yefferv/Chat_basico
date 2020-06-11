@@ -1,0 +1,20 @@
+.em {
+    font-style: italic;
+    color: rgb(47, 255, 92);
+    font-weight: bold;
+}
+
+footer {
+    color: #ffffff;
+    background-color: rgb(51, 122, 183);
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    font-size: 80%;
+    margin-left: -100%;
+    margin-right: -100%;
+}
+
+#div1 {
+    text-align: center;
+}

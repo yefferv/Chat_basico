@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My Aplicación con Sockets</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <section id="div0">
+        <div class="panel panel-primary">
+            <div id="div1" class="panel-heading">
+                <h1 text-align: center>CHAT</h1>
+            </div>
+
+            <div class="panel-body">
+                <div class="card">
+                    <h5 class="card-header">
+                        <div id="messages"></div>
+                    </h5>
+
+                    <br/>
+                    <div class="card-body">
+                        <form class="form-inline" onsubmit="return addMessage(this)">
+                            <input type="text" id="username" placeholder="Tu Nombre">
+                            <input type="text" id="texto" placeholder="Escribir algo...">
+
+                            <button type="submit" class="btn btn-default">Send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <p>
+                    Creado por: <em class="em">YOVG</em>
+                </p>
+            </footer>
+        </div>
+    </section>
+
+
+</body>
+
+</html>
